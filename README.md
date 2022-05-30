@@ -17,6 +17,8 @@ import mixtape.youtubei.request.ContentPlaybackContext
 import mixtape.youtubei.response.getYoutubeMusicTracks
 import mixtape.youtubei.search
 
+val innertube = Innertube(InnertubeClientType.Youtube)
+
 fun main() {
     /* fetch the current player script */
     val playerScript = innertube.playerScripts.fetch()
