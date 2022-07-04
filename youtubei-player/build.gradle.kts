@@ -18,5 +18,6 @@ dependencies {
     implementation(libs.ktor.client.core)
 
     testImplementation(libs.logback)
+    testImplementation(libs.ktor.client.cio)
 }
 
