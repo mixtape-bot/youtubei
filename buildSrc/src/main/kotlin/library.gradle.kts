@@ -36,8 +36,7 @@ tasks {
         kotlinOptions {
             jvmTarget = "$JDK_VERSION"
             freeCompilerArgs = listOf(
-                "-Xjdk-target=$JDK_VERSION",
-                "-opt-in=kotlin.OptIn",
+                "-Xjdk-release=$JDK_VERSION",
                 "-opt-in=kotlin.time.ExperimentalTime",
                 "-opt-in=kotlinx.serialization.InternalSerializationApi",
                 "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
