@@ -10,4 +10,6 @@ kotlin {
 dependencies {
     implementation(libs.bundles.common)
     implementation(libs.bundles.koyo)
+
+    testImplementation(libs.logback)
 }
