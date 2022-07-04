@@ -1,7 +1,7 @@
 package mixtape.oss.youtubei.json
 
-import mixtape.koyo.encoding.json.WrappedSerializer
 import kotlinx.serialization.Serializable
+import mixtape.koyo.encoding.json.WrappedSerializer
 
 @Serializable
 public data class UrlEndpoint(val url: String) {

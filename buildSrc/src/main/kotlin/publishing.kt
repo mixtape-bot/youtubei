@@ -2,10 +2,7 @@ import lol.dimensional.gradle.dsl.by
 import org.gradle.api.Project
 import org.gradle.api.publish.PublishingExtension
 import org.gradle.api.publish.maven.MavenPublication
-import org.gradle.authentication.http.BasicAuthentication
 import org.gradle.kotlin.dsl.configure
-import org.gradle.kotlin.dsl.create
-import org.gradle.kotlin.dsl.maven
 
 fun Project.configurePublishing() {
     val project = this

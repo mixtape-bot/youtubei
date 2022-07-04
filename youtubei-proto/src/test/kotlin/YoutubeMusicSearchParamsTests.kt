@@ -1,6 +1,6 @@
+import kotlinx.serialization.protobuf.ProtoBuf
 import mixtape.oss.youtubei.proto.YoutubeMusicSearchFilters
 import mixtape.oss.youtubei.proto.YoutubeMusicSearchParams
-import kotlinx.serialization.protobuf.ProtoBuf
 import mixtape.oss.youtubei.proto.tools.fromB64UrlToBytes
 import kotlin.test.Test
 import kotlin.test.assertEquals
