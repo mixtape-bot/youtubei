@@ -2,6 +2,11 @@
 
 > Innertube Client written in Kotlin.
 
+- Use multiple innertube clients with a single Innertube instance.
+- Can be used with any ktor http client instance.
+- Made with [lavaplayer](https://github.com/sedmelluq/lavaplayer) in mind.
+- Attempts to mimic clients via headers and random user agents.\
+
 ## 📦 Modules
 
 - [**core**](/youtubei-core) — innertube client implementations
@@ -52,11 +57,9 @@ dependencies {
 </dependencies>
 ```
 
-## Usage
+## Examples
 
-```kotlin
-
-```
+> View some examples [**here**](./examples/src/main/kotlin)
 
 ###### *note:* do not expect support for this library
 
