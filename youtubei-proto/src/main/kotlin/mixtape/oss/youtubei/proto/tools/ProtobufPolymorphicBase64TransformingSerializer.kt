@@ -16,6 +16,7 @@ public open class ProtobufPolymorphicBase64TransformingSerializer<T : Any>(
         get() = PrimitiveSerialDescriptor(serializer.descriptor.serialName + "[String+B64]", PrimitiveKind.STRING)
 
     override fun serialize(encoder: Encoder, value: T) {
+        @Suppress("UNCHECKED_CAST")
         val protobuf = ProtoBuf.encodeToByteArray(value::class.serializer() as KSerializer<T>, value)
         encoder.encodeString(protobuf.toB64UrlString())
     }
