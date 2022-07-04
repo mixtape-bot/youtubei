@@ -12,10 +12,10 @@ dependencies {
     implementation(projects.youtubeiJson)
 
     implementation(libs.bundles.common)
-    implementation(libs.bundles.ktor.client)
     implementation(libs.bundles.koyo)
 
     implementation(libs.graal.js)
+    implementation(libs.ktor.client.core)
 
     testImplementation(libs.logback)
 }
