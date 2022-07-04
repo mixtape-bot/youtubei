@@ -26,9 +26,15 @@ repositories {
 
 dependencies {
     api("org.slf4j:slf4j-api:1.7.32")
+
+    testImplementation(kotlin("test"))
 }
 
 tasks {
+    test {
+        useJUnitPlatform()
+    }
+
     withType<KotlinCompile> {
         kotlinOptions {
             jvmTarget = "$JDK_VERSION"
