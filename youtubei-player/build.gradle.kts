@@ -16,5 +16,7 @@ dependencies {
     implementation(libs.bundles.koyo)
 
     implementation(libs.graal.js)
+
+    testImplementation(libs.logback)
 }
 
