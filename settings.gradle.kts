@@ -18,14 +18,11 @@ dependencyResolutionManagement {
 fun VersionCatalogBuilder.net() {
     val ktor = version("ktor", "2.0.3")
 
-    library("ktor-serialization-json", "io.ktor", "ktor-serialization-kotlinx-json").versionRef(ktor)
-
     // client
     library("ktor-client-core",                "io.ktor", "ktor-client-core").versionRef(ktor)
     library("ktor-client-cio",                 "io.ktor", "ktor-client-cio").versionRef(ktor)
-    library("ktor-client-content-negotiation", "io.ktor", "ktor-client-content-negotiation").versionRef(ktor)
 
-    bundle("ktor-client", listOf("ktor-client-core", "ktor-client-cio", "ktor-client-content-negotiation", "ktor-serialization-json"))
+    bundle("ktor-client", listOf("ktor-client-core", "ktor-client-cio"))
 }
 
 fun VersionCatalogBuilder.common() {
