@@ -1,4 +1,4 @@
-package mixtape.oss.youtubei.json
+package mixtape.oss.youtubei.json.player
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
@@ -40,7 +40,7 @@ public sealed class PlayabilityStatus(public val name: String) {
 
     public companion object : KSerializer<PlayabilityStatus> {
         override val descriptor: SerialDescriptor =
-            PrimitiveSerialDescriptor("mixtape.oss.youtubei.json.PlayabilityStatus", PrimitiveKind.STRING)
+            PrimitiveSerialDescriptor("mixtape.oss.youtubei.json.player.PlayabilityStatus", PrimitiveKind.STRING)
 
         public fun values(): Array<PlayabilityStatus> {
             return arrayOf(

@@ -9,6 +9,7 @@ kotlin {
 
 dependencies {
     implementation(projects.youtubeiProto)
+    implementation(projects.youtubeiJson)
 
     implementation(libs.bundles.common)
     implementation(libs.bundles.ktor.client)

@@ -4,7 +4,7 @@ import arrow.core.Option
 import arrow.core.orElse
 import arrow.core.toOption
 import io.ktor.http.*
-import mixtape.oss.youtubei.json.StreamingFormat
+import mixtape.oss.youtubei.json.player.StreamingFormat
 import mixtape.oss.youtubei.player.script.PlayerScript
 
 /**

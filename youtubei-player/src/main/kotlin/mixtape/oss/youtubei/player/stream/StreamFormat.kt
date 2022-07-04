@@ -1,7 +1,7 @@
 package mixtape.oss.youtubei.player.stream
 
 import io.ktor.http.*
-import mixtape.oss.youtubei.json.StreamingFormat
+import mixtape.oss.youtubei.json.player.StreamingFormat
 
 /**
  * Represents the format of a [Stream].

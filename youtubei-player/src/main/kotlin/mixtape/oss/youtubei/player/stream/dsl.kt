@@ -1,7 +1,7 @@
 package mixtape.oss.youtubei.player.stream
 
 import mixtape.koyo.log.logging
-import mixtape.oss.youtubei.json.PlayerResponse
+import mixtape.oss.youtubei.json.player.PlayerResponse
 import mixtape.oss.youtubei.player.script.PlayerScript
 
 private val log by logging("mixtape.oss.youtubei.player.stream.dsl")

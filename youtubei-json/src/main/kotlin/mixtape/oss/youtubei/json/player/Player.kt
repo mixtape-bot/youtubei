@@ -1,9 +1,11 @@
-package mixtape.oss.youtubei.json
+package mixtape.oss.youtubei.json.player
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.LongAsStringSerializer
 import kotlinx.serialization.json.JsonNames
 import mixtape.koyo.encoding.json.WrappedSerializer
+import mixtape.oss.youtubei.json.Text
+import mixtape.oss.youtubei.json.ThumbnailContainer
 
 @Serializable
 public data class PlayerRequest(
